@@ -8,7 +8,7 @@
     "build:html": "cp src/index.html dist/index.html",
     "build:js": "browserify src/index.js -t babelify --outfile dist/bundle.js",
     "build": "npm run build:dir && npm run build:css && npm run build:js && npm run build:html",
-    "deploy": "ipfs add -r dist",
+    "deploy": "echo http://localhost:8080/ipfs/$(ipfs add -r -q dist | tail -n1)/",
     "test": "npm run build"
   },
   "author": "David Hazinski <dhazinski@gmail.com>",

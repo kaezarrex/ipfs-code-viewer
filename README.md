@@ -6,7 +6,7 @@ A code viewer for the [InterPlanetary File System (IPFS)][ipfs].
 
 View the source code of a file by appending an IPFS path to the url.
 
-https://gateway.ipfs.io/ipfs/QmbMXRJfGx5HWoFCw5ZNpqKVwBnviyqWCFnngsaAiCWvTk/#/ipfs/QmXFkiQAKDH5wCvYp7NBwAqCtRWwPGY1UHdKf1HrLwxQks
+https://ipfs.io/ipfs/QmcbfwgAGCwAH37YymPq5A91hBNZHA9UzyivcWQdE1bLFr/#/ipfs/QmTN32ZJgReyM6t9ZUveW5eThFFnJZKoRQNNB6PKTnHyNb/
 
 ![Example Screenshot](http://i.imgur.com/ydvXf6i.png)
 
