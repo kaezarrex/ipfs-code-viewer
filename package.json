@@ -1,0 +1,23 @@
+{
+  "name": "ipfs-code-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:css": "cp node_modules/highlight.js/styles/solarized_dark.css dist/theme.css",
+    "build:html": "cp src/index.html dist/index.html",
+    "build:js": "browserify src/index.js -t babelify --outfile dist/bundle.js",
+    "build": "npm run build:css && npm run build:js && npm run build:html",
+    "deploy": "ipfs add -r dist"
+  },
+  "author": "David Hazinski <dhazinski@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "highlight.js": "^8.8.0",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0"
+  }
+}
