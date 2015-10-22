@@ -1,8 +1,8 @@
 # ipfs-code-viewer
 
-[![Build Status](https://travis-ci.org/kaezarrex/ipfs-code-viewer.svg)](https://travis-ci.org/kaezarrex/ipfs-code-viewer)
-
 A code viewer for the [InterPlanetary File System (IPFS)][ipfs].
+
+[![Build Status](https://travis-ci.org/kaezarrex/ipfs-code-viewer.svg)](https://travis-ci.org/kaezarrex/ipfs-code-viewer)
 
 View the source code of a file by appending an IPFS path to the url.
 
