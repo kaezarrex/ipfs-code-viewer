@@ -2,6 +2,8 @@
 
 A code viewer for the [InterPlanetary File System (IPFS)][ipfs].
 
+[![Build Status](https://travis-ci.org/kaezarrex/ipfs-code-viewer.svg)](https://travis-ci.org/kaezarrex/ipfs-code-viewer)
+
 ![Example Screenshot](http://i.imgur.com/ydvXf6i.png)
 
 # Instructions
